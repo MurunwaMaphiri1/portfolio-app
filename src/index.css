@@ -1,0 +1,27 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 900px;
+  letter-spacing: 2px;
+}
+
+.summary {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.secondary-text {
+  margin-top: 50px;
+}
+
+.links-container {
+  display: flex;
+  gap: 10px;
+}
+
+.tech-stack {
+  display: flex;
+  gap: 10px;
+}

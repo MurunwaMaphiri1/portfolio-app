@@ -11,11 +11,12 @@ export default function HomePage() {
                 <p className="secondary-text">
                     {`→ $gh aboutme`}
                 </p>
+                <img src="/images/avatar/ascii-art.png" width={120} height={120}/>
                 <h1 className="name">
                     Murunwa Maphiri
                 </h1>
                 <p className="job-title">
-                    Aspiring Fullstack Developer
+                    Fullstack Developer
                 </p>
                 <div className="summary">
                     <p className="summary-text">
@@ -67,9 +68,6 @@ export default function HomePage() {
                             <img src="./public/images/tools/css-3.png"
                             width={30} height={30}
                             />
-                            {/* <img src="./public/images/tools/sql.png"
-                            width={30} height={30}
-                            /> */}
                         </div>
                         <p>{`Frameworks and Libraries`}</p>
                             <div className="links-container">
@@ -133,6 +131,14 @@ export default function HomePage() {
                             />
                             </a>
                         </p>
+                        <div className="status-container">
+                            <div className="in-progress-dot"></div>
+                                <div className="text">
+                                        <p>
+                                            In Progress
+                                        </p>
+                                </div>
+                        </div>
                         <p>
                         The Movie Reservation System is a .NET Core Web API that allows users to browse movies, select showtimes and book reservations securely. The API is designed with JWT authentication, Entity Framework Core and PostgreSQL for data storage.
                         </p>
@@ -148,6 +154,114 @@ export default function HomePage() {
                             </p>
                             <p>
                                 JWT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br></br>
+                <div className="summary">
+                    <div className="text">
+                        <p>
+                            {`Appointment Scheduler  `}
+                            <a href="https://github.com/MurunwaMaphiri1/Appointment-scheduler">
+                            <img src="./public/images/github.png"
+                            width={30} height={30}
+                            />
+                            </a>
+                        </p>
+                        <div className="status-container">
+                            <div className="project-completed-dot"></div>
+                                <div className="text">
+                                        <p>
+                                            Complete
+                                        </p>
+                                </div>
+                        </div>
+                        <p>
+                        A .NET Core Web API for creating appointment bookings and email notifications. The API uses JWT authentication and PostgreSQL for data storage. Includes frontend.
+                        </p>
+                        <div className="tech-stack">
+                            <p>
+                               C# 
+                            </p>
+                            <p>
+                                PostgreSQL
+                            </p>
+                            <p>
+                                ReactJS
+                            </p>
+                            <p>
+                                JWT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br></br>
+                <div className="summary">
+                    <div className="text">
+                        <p>
+                            {`E-commerce application  `}
+                            <a href="https://github.com/MurunwaMaphiri1/e-commerce-api-and-app">
+                            <img src="./public/images/github.png"
+                            width={30} height={30}
+                            />
+                            </a>
+                        </p>
+                        <div className="status-container">
+                            <div className="project-completed-dot"></div>
+                                <div className="text">
+                                        <p>
+                                            Complete
+                                        </p>
+                                </div>
+                        </div>
+                        <p>
+                        This project is an API for an e-commerce platform that allows users to sign up, log in, add products to a shopping cart, remove products, view and search for products, and checkout with a payment gateway. The backend includes JWT authentication for secure user interaction and integrates with Stripe for handling payments.
+                        </p>
+                        <div className="tech-stack">
+                            <p>
+                               JavaScript 
+                            </p>
+                            <p>
+                                MongoDB
+                            </p>
+                            <p>
+                                ReactJS
+                            </p>
+                            <p>
+                                JWT
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <br></br>
+                <div className="summary">
+                    <div className="text">
+                        <p>
+                            {`Anime watchlist application  `}
+                            <a href="https://github.com/MurunwaMaphiri1/Anime-watchlist-app">
+                            <img src="./public/images/github.png"
+                            width={30} height={30}
+                            />
+                            </a>
+                        </p>
+                        <div className="status-container">
+                            <div className="project-completed-dot"></div>
+                                <div className="text">
+                                        <p>
+                                            Complete
+                                        </p>
+                                </div>
+                        </div>
+                        <p>
+                        Integrated the Jikan API to display seasonal, upcoming and top anime along with top manga listings.
+                        </p>
+                        <div className="tech-stack">
+                            <p>
+                               JavaScript 
+                            </p>
+                            <p>
+                                ReactJS
                             </p>
                         </div>
                     </div>

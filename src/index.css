@@ -25,3 +25,42 @@
   display: flex;
   gap: 10px;
 }
+
+.status-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.in-progress-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: orange;
+  animation: pulse 2s infinite;
+}
+
+.project-completed-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: green;
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}

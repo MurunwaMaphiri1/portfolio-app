@@ -147,7 +147,7 @@ export default function HomePage() {
                                 ReactJS
                             </p>
                             <p>
-                                JWT Authentication
+                                JWT
                             </p>
                         </div>
                     </div>

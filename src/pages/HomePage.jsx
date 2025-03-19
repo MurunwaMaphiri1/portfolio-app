@@ -28,7 +28,7 @@ export default function HomePage() {
     }, []);
 
       // Safely sanitize the HTML content
-  const sanitizedAsciiArt = asciiart ? DOMPurify.sanitize(asciiart) : '';
+    const sanitizedAsciiArt = asciiart ? DOMPurify.sanitize(asciiart) : '';
 
     if (error) {
         return <div>Error: {error}</div>
@@ -43,12 +43,6 @@ export default function HomePage() {
                 <p className="secondary-text">
                     {`→ $gh aboutme`}
                 </p>
-                {/* <img src="/images/avatar/ascii-art.png" width={120} height={120}/> */}
-                {/* <div className="ascii-art">
-                    <pre>
-                        {asciiart}
-                    </pre>
-                </div> */}
                 <div className="colored-ascii-art">
                     <div dangerouslySetInnerHTML={{ __html: sanitizedAsciiArt }} />
                 </div>
@@ -175,7 +169,7 @@ export default function HomePage() {
                             <div className="in-progress-dot"></div>
                                 <div className="text">
                                         <p>
-                                            In Progress
+                                            Making improvements
                                         </p>
                                 </div>
                         </div>
@@ -286,10 +280,10 @@ export default function HomePage() {
                             </a>
                         </p>
                         <div className="status-container">
-                            <div className="project-completed-dot"></div>
+                            <div className="in-progress-dot"></div>
                                 <div className="text">
                                         <p>
-                                            Complete
+                                            Making improvements
                                         </p>
                                 </div>
                         </div>

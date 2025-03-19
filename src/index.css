@@ -37,18 +37,35 @@ body {
   gap: 8px;
 }
 
-pre {
+/* pre {
   font-family: monospace;
-  font-size: 8px; /* Smaller font size */
-  line-height: 0.8; /* Tighter line spacing */
+  font-size: 8px; 
+  line-height: 0.8; 
   white-space: pre;
 }
 
 .ascii-art {
   letter-spacing: 0;
-  width: 500px; /* Adjust as needed */
-  height: 400px; /* Adjust as needed */
-  overflow: hidden; /* Hides overflow */
+  width: 500px; 
+  height: 400px; 
+  overflow: hidden; 
+} */
+
+.colored-ascii-art {
+  font-family: monospace;
+  white-space: pre;
+  line-height: 0.8;
+  font-size: 8px;
+  background-color: #000; 
+  padding: 1rem;
+  width: 500px;
+  height: 400px;
+  border-radius: 4px;
+  overflow: hidden;
+  letter-spacing: 0;
+  width: 500px; 
+  height: 400px; 
+  overflow: hidden; 
 }
 
 

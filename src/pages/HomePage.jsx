@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import DOMPurify from 'dompurify';
 
 export default function HomePage() {
     const [asciiart, setAsciiArt] = useState('');
@@ -9,7 +10,7 @@ export default function HomePage() {
         const fetchAsciiArt = async() => {
             try {
                 setIsLoading(true);
-                const res = await fetch(`/images/avatar/ascii-art Goku (3).txt`)
+                const res = await fetch(`/images/avatar/ascii-art Goku (5).txt`)
 
                 if (!res.ok) {
                     throw new Error(`Failed to fetch ASCII art: ${res.status}`);
@@ -26,6 +27,9 @@ export default function HomePage() {
         fetchAsciiArt();
     }, []);
 
+      // Safely sanitize the HTML content
+  const sanitizedAsciiArt = asciiart ? DOMPurify.sanitize(asciiart) : '';
+
     if (error) {
         return <div>Error: {error}</div>
     }
@@ -40,10 +44,13 @@ export default function HomePage() {
                     {`→ $gh aboutme`}
                 </p>
                 {/* <img src="/images/avatar/ascii-art.png" width={120} height={120}/> */}
-                <div className="ascii-art">
+                {/* <div className="ascii-art">
                     <pre>
                         {asciiart}
                     </pre>
+                </div> */}
+                <div className="colored-ascii-art">
+                    <div dangerouslySetInnerHTML={{ __html: sanitizedAsciiArt }} />
                 </div>
                 <h1 className="name">
                     Murunwa Maphiri

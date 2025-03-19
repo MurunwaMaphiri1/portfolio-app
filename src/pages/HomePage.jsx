@@ -63,19 +63,19 @@ export default function HomePage() {
                             />
                         </a>
                         <a href="https://www.linkedin.com/in/murunwa-maphiri-307b83283/">
-                            <img src="./public/images/linkedin-logo.png"
+                            <img src="./images/linkedin-logo.png"
                             width={30} height={30}
                             />
                         </a>
                         <a href="mailto:murunwamaphiri99@gmail.com">
-                            <img src="./public/images/communication.png"
+                            <img src="./images/communication.png"
                             width={30} height={30}
                             />
                         </a>
                         <a href="./public/CV/Murunwa_Maphiri_CV.pdf"
                            download
                         >
-                            <img src="./public/images/cv.png"
+                            <img src="./images/cv.png"
                             width={30} height={30}
                             />
                         </a>
@@ -87,67 +87,67 @@ export default function HomePage() {
                 <div className="summary">
                     <p>{`Languages`}</p>
                         <div className="links-container">
-                            <img src="./public/images/tools/c-sharp.png"
+                            <img src="./images/tools/c-sharp.png"
                             width={30} height={30}
                             />
-                            <img src="./public/images/tools/js.png"
+                            <img src="./images/tools/js.png"
                             width={30} height={30}
                             />
-                            <img src="./public/images/tools/java.png"
+                            <img src="./images/tools/java.png"
                             width={30} height={30}
                             />
-                            <img src="./public/images/tools/html-5.png"
+                            <img src="./images/tools/html-5.png"
                             width={30} height={30}
                             />
-                            <img src="./public/images/tools/css-3.png"
+                            <img src="./images/tools/css-3.png"
                             width={30} height={30}
                             />
                         </div>
                         <p>{`Frameworks and Libraries`}</p>
                             <div className="links-container">
-                                <img src="./public/images/tools/ReactJs.png"
+                                <img src="./images/tools/ReactJs.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/node.png"
+                                <img src="./images/tools/node.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/icons8-express-js-40.png"
+                                <img src="./images/tools/icons8-express-js-40.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/icons8-.net-framework-512.png"
+                                <img src="./images/tools/icons8-.net-framework-512.png"
                                 width={30} height={30}
                                 />
                             </div>
                         <p>{`Databases`}</p>
                         <div className="links-container">
-                            <img src="./public/images/tools/postgresql.png"
+                            <img src="./images/tools/postgresql.png"
                             width={30} height={30}
                             />
-                            <img src="./public/images/tools/icons8-mongo-db-48.png"
+                            <img src="./images/tools/icons8-mongo-db-48.png"
                             width={30} height={30}
                             />
                         </div>
                         <p>{`Tools and Platforms`}</p>
                         <div className="links-container">
-                            <img src="./public/images/tools/git.png"
+                            <img src="./images/tools/git.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/npm.png"
+                                <img src="./images/tools/npm.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/icons8-postman-inc-24.png"
+                                <img src="./images/tools/icons8-postman-inc-24.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/azure.png"
+                                <img src="./images/tools/azure.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/icons8-vs-code-48.png"
+                                <img src="./images/tools/icons8-vs-code-48.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/icons8-rider-jetbrains-40.png"
+                                <img src="./images/tools/icons8-rider-jetbrains-40.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/icons8-intellij-idea-512.png"
+                                <img src="./images/tools/icons8-intellij-idea-512.png"
                                 width={30} height={30}
                                 />
                         </div>
@@ -160,7 +160,7 @@ export default function HomePage() {
                         <p>
                             {`MagicBox Theatres  `}
                             <a href="https://github.com/MurunwaMaphiri1/movie-reservation-system">
-                            <img src="./public/images/github-1.png"
+                            <img src="./images/github-1.png"
                             width={30} height={30}
                             />
                             </a>
@@ -198,7 +198,7 @@ export default function HomePage() {
                         <p>
                             {`Appointment Scheduler  `}
                             <a href="https://github.com/MurunwaMaphiri1/Appointment-scheduler">
-                            <img src="./public/images/github-1.png"
+                            <img src="./images/github-1.png"
                             width={30} height={30}
                             />
                             </a>
@@ -236,7 +236,7 @@ export default function HomePage() {
                         <p>
                             {`E-commerce application  `}
                             <a href="https://github.com/MurunwaMaphiri1/e-commerce-api-and-app">
-                            <img src="./public/images/github-1.png"
+                            <img src="./images/github-1.png"
                             width={30} height={30}
                             />
                             </a>
@@ -274,7 +274,7 @@ export default function HomePage() {
                         <p>
                             {`Anime watchlist application  `}
                             <a href="https://github.com/MurunwaMaphiri1/Anime-watchlist-app">
-                            <img src="./public/images/github-1.png"
+                            <img src="./images/github-1.png"
                             width={30} height={30}
                             />
                             </a>

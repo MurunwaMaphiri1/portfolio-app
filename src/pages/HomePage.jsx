@@ -11,7 +11,7 @@ export default function HomePage() {
                 <p className="secondary-text">
                     {`→ $gh aboutme`}
                 </p>
-                <img src="/images/avatar/ascii-art.png" width={120} height={120}/>
+                {/* <img src="/images/avatar/ascii-art.png" width={120} height={120}/> */}
                 <h1 className="name">
                     Murunwa Maphiri
                 </h1>

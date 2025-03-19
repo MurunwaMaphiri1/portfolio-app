@@ -32,6 +32,20 @@
   gap: 8px;
 }
 
+pre {
+  font-family: monospace;
+  font-size: 8px; /* Smaller font size */
+  line-height: 0.8; /* Tighter line spacing */
+  white-space: pre;
+}
+
+.ascii-art {
+  letter-spacing: 0;
+  width: 500px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+  overflow: hidden; /* Hides overflow */
+}
+
 
 .in-progress-dot {
   width: 7px;

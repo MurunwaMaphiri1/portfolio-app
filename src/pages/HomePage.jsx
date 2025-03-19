@@ -1,6 +1,34 @@
-
+import React, { useState, useEffect } from 'react';
 
 export default function HomePage() {
+    const [asciiart, setAsciiArt] = useState('');
+    const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState(null);
+
+    useEffect(() => {
+        const fetchAsciiArt = async() => {
+            try {
+                setIsLoading(true);
+                const res = await fetch(`/images/avatar/ascii-art Goku (3).txt`)
+
+                if (!res.ok) {
+                    throw new Error(`Failed to fetch ASCII art: ${res.status}`);
+                }
+
+                const text = await res.text();
+                setAsciiArt(text);
+
+            } catch(err) {
+                setError(err.message);
+                setIsLoading(false);
+            }
+        }
+        fetchAsciiArt();
+    }, []);
+
+    if (error) {
+        return <div>Error: {error}</div>
+    }
 
     return (
         <>
@@ -12,6 +40,11 @@ export default function HomePage() {
                     {`→ $gh aboutme`}
                 </p>
                 {/* <img src="/images/avatar/ascii-art.png" width={120} height={120}/> */}
+                <div className="ascii-art">
+                    <pre>
+                        {asciiart}
+                    </pre>
+                </div>
                 <h1 className="name">
                     Murunwa Maphiri
                 </h1>

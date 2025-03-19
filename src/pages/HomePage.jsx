@@ -57,17 +57,17 @@ export default function HomePage() {
                     </p>
                     <div className="links-container">
                         <a href="https://github.com/MurunwaMaphiri1">
-                            <img src="./public/images/github.png"
+                            <img src="./public/images/github-1.png"
                             width={30} height={30}
                             />
                         </a>
                         <a href="https://www.linkedin.com/in/murunwa-maphiri-307b83283/">
-                            <img src="./public/images/linkedin.png"
+                            <img src="./public/images/linkedin-logo.png"
                             width={30} height={30}
                             />
                         </a>
                         <a href="mailto:murunwamaphiri99@gmail.com">
-                            <img src="./public/images/email.png"
+                            <img src="./public/images/communication.png"
                             width={30} height={30}
                             />
                         </a>
@@ -110,7 +110,7 @@ export default function HomePage() {
                                 <img src="./public/images/tools/node.png"
                                 width={30} height={30}
                                 />
-                                <img src="./public/images/tools/icons8-express-js-512.png"
+                                <img src="./public/images/tools/icons8-express-js-40.png"
                                 width={30} height={30}
                                 />
                                 <img src="./public/images/tools/icons8-.net-framework-512.png"
@@ -159,7 +159,7 @@ export default function HomePage() {
                         <p>
                             {`MagicBox Theatres  `}
                             <a href="https://github.com/MurunwaMaphiri1/movie-reservation-system">
-                            <img src="./public/images/github.png"
+                            <img src="./public/images/github-1.png"
                             width={30} height={30}
                             />
                             </a>
@@ -197,7 +197,7 @@ export default function HomePage() {
                         <p>
                             {`Appointment Scheduler  `}
                             <a href="https://github.com/MurunwaMaphiri1/Appointment-scheduler">
-                            <img src="./public/images/github.png"
+                            <img src="./public/images/github-1.png"
                             width={30} height={30}
                             />
                             </a>
@@ -235,7 +235,7 @@ export default function HomePage() {
                         <p>
                             {`E-commerce application  `}
                             <a href="https://github.com/MurunwaMaphiri1/e-commerce-api-and-app">
-                            <img src="./public/images/github.png"
+                            <img src="./public/images/github-1.png"
                             width={30} height={30}
                             />
                             </a>
@@ -273,7 +273,7 @@ export default function HomePage() {
                         <p>
                             {`Anime watchlist application  `}
                             <a href="https://github.com/MurunwaMaphiri1/Anime-watchlist-app">
-                            <img src="./public/images/github.png"
+                            <img src="./public/images/github-1.png"
                             width={30} height={30}
                             />
                             </a>
@@ -298,6 +298,13 @@ export default function HomePage() {
                             </p>
                         </div>
                     </div>
+                </div>
+                <div className='footer-container'>
+                    <footer>
+                            <p>
+                                Made with ❤️ by Murunwa Maphiri
+                            </p>
+                    </footer>
                 </div>
             </div>
         </>

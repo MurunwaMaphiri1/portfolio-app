@@ -58,7 +58,7 @@ export default function HomePage() {
                     </p>
                     <div className="links-container">
                         <a href="https://github.com/MurunwaMaphiri1">
-                            <img src="./public/images/github-1.png"
+                            <img src="./images/github-1.png"
                             width={30} height={30}
                             />
                         </a>
@@ -72,7 +72,7 @@ export default function HomePage() {
                             width={30} height={30}
                             />
                         </a>
-                        <a href="./public/CV/Murunwa_Maphiri_CV.pdf"
+                        <a href="./CV/Murunwa_Maphiri_CV.pdf"
                            download
                         >
                             <img src="./images/cv.png"

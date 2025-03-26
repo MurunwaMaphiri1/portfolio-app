@@ -280,15 +280,15 @@ export default function HomePage() {
                             </a>
                         </p>
                         <div className="status-container">
-                            <div className="in-progress-dot"></div>
+                            <div className="project-completed-dot"></div>
                                 <div className="text">
                                         <p>
-                                            Making improvements
+                                            Complete
                                         </p>
                                 </div>
                         </div>
                         <p>
-                        Integrated the Jikan API to display seasonal, upcoming and top anime along with top manga listings.
+                        Integrated the Jikan API to display seasonal, upcoming and top anime.
                         </p>
                         <div className="tech-stack">
                             <p>
@@ -298,6 +298,11 @@ export default function HomePage() {
                                 ReactJS
                             </p>
                         </div>
+                    </div>
+                    <div className='live-demo'>
+                        <button>
+                            Live Demo
+                        </button>
                     </div>
                 </div>
                 <div className='footer-container'>

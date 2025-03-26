@@ -24,11 +24,21 @@ body {
 .links-container {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .tech-stack {
   display: flex;
+  flex-direction: row;
   gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tech-stack p {
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #131313;
+  border: none;
 }
 
 .status-container {
@@ -70,7 +80,7 @@ body {
   background-color: green;
 }
 
-.live-demo button {
+.live-demo a {
   border-radius: 8px;
   border: none;
   padding: 9px;

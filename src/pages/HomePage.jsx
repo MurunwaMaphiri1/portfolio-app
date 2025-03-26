@@ -300,10 +300,11 @@ export default function HomePage() {
                         </div>
                     </div>
                     <div className='live-demo'>
-                        <button>
+                        <a href="https://yumeanime.vercel.app/" style={{ textDecoration: 'none', display: 'inline-block', cursor: 'pointer' }}>
                             Live Demo
-                        </button>
+                        </a>
                     </div>
+
                 </div>
                 <div className='footer-container'>
                     <footer>

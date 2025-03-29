@@ -10,7 +10,7 @@ export default function HomePage() {
         const fetchAsciiArt = async() => {
             try {
                 setIsLoading(true);
-                const res = await fetch(`/images/avatar/ascii-art Goku (5).txt`)
+                const res = await fetch(`/images/avatar/Lufffy.txt`)
 
                 if (!res.ok) {
                     throw new Error(`Failed to fetch ASCII art: ${res.status}`);

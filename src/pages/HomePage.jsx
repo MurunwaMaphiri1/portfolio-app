@@ -10,7 +10,7 @@ export default function HomePage() {
         const fetchAsciiArt = async() => {
             try {
                 setIsLoading(true);
-                const res = await fetch(`/images/avatar/Lufffy.txt`)
+                const res = await fetch(`/images/avatar/ascii-art(1).txt`)
 
                 if (!res.ok) {
                     throw new Error(`Failed to fetch ASCII art: ${res.status}`);
@@ -54,7 +54,7 @@ export default function HomePage() {
                 </p>
                 <div className="summary">
                     <p className="summary-text">
-                        Hi, I'm a passionate and motivated individual with a strong interest in technology and software development. I enjoy learning new skills, solving problems and working on projects that challenge me to grow. I'm always eager to explore new tools and technologies to improve my knowledge and contribute to meaningful work. In my free time, I like working on personal projects, learning from online resources and staying updated with the latest tech trends.
+                    I'm the type of person who loves building cool things with code—whether it’s a clean React UI or a solid backend with .NET. I’m constantly learning, experimenting and trying to make each project better than the last. Think of it like my own little tech journey—kind of like a training arc, minus the dramatic music (most of the time). If you're into creating, breaking and fixing stuff in the world of tech, you're in the right place.
                     </p>
                     <div className="links-container">
                         <a href="https://github.com/MurunwaMaphiri1">

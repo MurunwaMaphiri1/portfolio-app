@@ -72,7 +72,7 @@ export default function HomePage() {
                             width={30} height={30}
                             />
                         </a>
-                        <a href="./CV/Murunwa Maphiri Fullstack Developer CV (1).pdf"
+                        <a href="./CV/Murunwa Maphiri Fullstack Developer CV.pdf"
                            download
                         >
                             <img src="./images/cv.png"

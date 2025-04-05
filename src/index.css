@@ -103,17 +103,14 @@ body {
     font-family: monospace;
     white-space: pre;
     line-height: 1;
-    font-size: 4px; /* Slightly larger font for better rendering */
+    font-size: 2px; 
     border-radius: 4px;
     overflow: hidden;
-    letter-spacing: 0; /* Force letter spacing to zero */
-    width: fit-content; /* Only as wide as the content requires */
-    height: auto;
+    letter-spacing: normal;
+    width: auto; 
+    height: auto; 
     display: block;
     text-align: left;
-    transform: scale(0.8); /* Scale down if needed */
-    transform-origin: left top; /* Scale from top left */
-    max-width: 100%; /* Prevent overflow */
   }
 
   .summary {
